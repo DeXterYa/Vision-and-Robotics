@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/tests.dir/tests/collision.cpp.o"
+  "CMakeFiles/tests.dir/tests/friction.cpp.o"
+  "CMakeFiles/tests.dir/tests/joint.cpp.o"
+  "CMakeFiles/tests.dir/tests/main.cpp.o"
+  "CMakeFiles/tests.dir/tests/odemath.cpp.o"
+  "CMakeFiles/tests.dir/tests/joints/amotor.cpp.o"
+  "CMakeFiles/tests.dir/tests/joints/ball.cpp.o"
+  "CMakeFiles/tests.dir/tests/joints/dball.cpp.o"
+  "CMakeFiles/tests.dir/tests/joints/fixed.cpp.o"
+  "CMakeFiles/tests.dir/tests/joints/hinge.cpp.o"
+  "CMakeFiles/tests.dir/tests/joints/hinge2.cpp.o"
+  "CMakeFiles/tests.dir/tests/joints/piston.cpp.o"
+  "CMakeFiles/tests.dir/tests/joints/pr.cpp.o"
+  "CMakeFiles/tests.dir/tests/joints/pu.cpp.o"
+  "CMakeFiles/tests.dir/tests/joints/slider.cpp.o"
+  "CMakeFiles/tests.dir/tests/joints/universal.cpp.o"
+  "CMakeFiles/tests.dir/tests/UnitTest++/src/AssertException.cpp.o"
+  "CMakeFiles/tests.dir/tests/UnitTest++/src/Checks.cpp.o"
+  "CMakeFiles/tests.dir/tests/UnitTest++/src/DeferredTestReporter.cpp.o"
+  "CMakeFiles/tests.dir/tests/UnitTest++/src/DeferredTestResult.cpp.o"
+  "CMakeFiles/tests.dir/tests/UnitTest++/src/MemoryOutStream.cpp.o"
+  "CMakeFiles/tests.dir/tests/UnitTest++/src/ReportAssert.cpp.o"
+  "CMakeFiles/tests.dir/tests/UnitTest++/src/Test.cpp.o"
+  "CMakeFiles/tests.dir/tests/UnitTest++/src/TestDetails.cpp.o"
+  "CMakeFiles/tests.dir/tests/UnitTest++/src/TestList.cpp.o"
+  "CMakeFiles/tests.dir/tests/UnitTest++/src/TestReporter.cpp.o"
+  "CMakeFiles/tests.dir/tests/UnitTest++/src/TestReporterStdout.cpp.o"
+  "CMakeFiles/tests.dir/tests/UnitTest++/src/TestResults.cpp.o"
+  "CMakeFiles/tests.dir/tests/UnitTest++/src/TestRunner.cpp.o"
+  "CMakeFiles/tests.dir/tests/UnitTest++/src/TimeConstraint.cpp.o"
+  "CMakeFiles/tests.dir/tests/UnitTest++/src/XmlTestReporter.cpp.o"
+  "CMakeFiles/tests.dir/tests/UnitTest++/src/Posix/SignalTranslator.cpp.o"
+  "CMakeFiles/tests.dir/tests/UnitTest++/src/Posix/TimeHelpers.cpp.o"
+  "tests.pdb"
+  "tests"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/tests.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

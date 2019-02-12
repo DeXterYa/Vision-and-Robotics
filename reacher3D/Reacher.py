@@ -371,6 +371,7 @@ class ReacherEnv(gym.Env):
             self.viewer.lightValue=1
         elif self.viewer.lightValue<0.01:
             self.viewer.lightValue=0.01
+	#self.viewer.lightValue=0.02
         for obj in self.viewer.onetime_geoms:
             redBright, greenBright, blueBright=self.update_colour(obj._color.vec4)
             obj.set_color(redBright, greenBright, blueBright)
